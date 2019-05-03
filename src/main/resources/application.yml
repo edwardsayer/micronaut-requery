@@ -1,0 +1,14 @@
+micronaut:
+    application:
+        name: hello-world
+    x_views:
+        folder: ./views
+    jackson:
+        date-format: 'yyyy-MM-dd HH:mm:ss'
+    #        serialization:
+    #            writeDatesAsTimestamps: false
+db:
+    url:  jdbc:mysql://localhost/fusionspace?useUnicode=true&useSSL=false
+    username: root
+    password: 12345
+    
